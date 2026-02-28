@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Proxy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <nav class="top-nav">
+            <a href="/" class="logo">Proxy</a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/faq">FAQ</a>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <h1 class="title">Browse privately</h1>
+            <div class="input-container glass">
+                <input type="text" id="url-input" placeholder="Enter URL or search term" autofocus>
+                <button id="browse-btn">Browse</button>
+            </div>
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Loading...</p>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>⚠️ This proxy is for educational purposes. Use responsibly.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
